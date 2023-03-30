@@ -1,83 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Link to the CSS file -->
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <!-- The header section -->
-    <header>
-      <h1>My Portfolio</h1>
-      <nav>
-        <!-- The navigation menu -->
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <!-- The main content area -->
-    <main>
-      <!-- The about section -->
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Insert information about yourself here, including your skills, education, and any relevant experience you have.</p>
-      </section>
-      
-      <!-- The projects section -->
-      <section id="projects">
-        <h2>My Projects</h2>
-        <ul>
-          <!-- Project 1 -->
-          <li>
-            <h3>Project Title 1</h3>
-            <p>Description of project 1.</p>
-            <a href="#">View Project</a>
-          </li>
-          
-          <!-- Project 2 -->
-          <li>
-            <h3>Project Title 2</h3>
-            <p>Description of project 2.</p>
-            <a href="#">View Project</a>
-          </li>
-          
-          <!-- Project 3 -->
-          <li>
-            <h3>Project Title 3</h3>
-            <p>Description of project 3.</p>
-            <a href="#">View Project</a>
-          </li>
-        </ul>
-      </section>
-      
-      <!-- The contact section -->
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name...">
-          
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email...">
-          
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" placeholder="Enter your message..."></textarea>
-          
-          <input type="submit" value="Send">
-        </form>
-      </section>
-    </main>
-    
-    <!-- The footer section -->
-    <footer>
-      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
-    </footer>
-  </body>
+<head>
+	<title>Yuecheng Cao's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+	</header>
+	<nav>
+		<a href="#skills">Skills</a>
+		<a href="#projects">Projects</a>
+		<a href="#contact">Contact</a>
+	</nav>
+	<main>
+		<div class="container">
+			<div class="left">
+				<section id="about">
+					<h1>YUECHENG CAO</h1>
+					<hr>
+					<img src="MyPhoto.png" alt="My Photo" style="width:100%">
+					<p> Seeking a Intern software engineering position starting from June 2023</p>
+					<p> Bachelor's degree candidate at University of Michigan with strong programming, designing skills and huge passion.</p>
+					<p> A wide range of software develops experience in a variety of programming languages. Solid knowledge background of
+computer science and programming skills.</p>
+				</section>
+			</div>
+				
+			<div class="right">
+				<section id="skills">
+					<h2>SKILLS</h2>
+     <hr>
+      <div><b>Programming Languages: </b><p>C/C++, Swift, Java, Python, Racket, Haskell, HTML, CSS, Javascript, Bash, C#</p></div>
+						<div><b>Frameworks and Tools: </b><p>React, Node.js, Express.js, Bootstrap, jQuery, Django, Flask, Django, Unity</p></div>
+					 <div><b>Databases: </b><p>SQL*plus, Redis, MySQL, SQLite, SQLAlchemy</p></div>
+				</section>
+				
+				<section id="projects">
+					<h2>ACADEMIC PROJECTS</h2>
+					<hr>
+					<ul>
+						<li>
+							<h3>Project 1</h3>
+							<p>Description of project 1.</p>
+						</li>
+						<li>
+							<h3>Project 2</h3>
+							<p>Description of project 2.</p>
+						</li>
+						<li>
+							<h3>Project 3</h3>
+							<p>Description of project 3.</p>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</main>
+</body>
 </html>
