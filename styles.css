@@ -11,6 +11,20 @@ hr {
   margin-bottom: 5%;
 }
 
+/* List styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 4px;
+  color: #383838;
+  font-size: 15px;
+}
+
 /* Header styles */
 header {
   background-color: #ffffff;
@@ -88,8 +102,9 @@ footer {
 }
 
 .left {
+  position: fixed;
   float: left;
-  width: 40%;
+  width: 30%;
   padding: 1rem;
 }
 
