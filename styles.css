@@ -39,13 +39,14 @@ nav {
   position: fixed;
   top: 0;
   right: 0;
-  width: 15%;
+  width: 10%;
   height: 100%;
   display: flex;
   text-align: right;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  //background-color: rgba(221, 221, 221, 0.5);
 }
 
 nav a 
@@ -92,11 +93,26 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
-}```
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600) {
+  .left {
+    float: none;
+    position: static;
+    width: auto;
+  }
+  .right {
+    float: none;
+    position: static;
+    width: auto;
+  }
+}
 
 /* Index styles */
 
 .container {
+  width: 800px;
   padding: 5rem;
   align-content: center;
 }
@@ -104,12 +120,12 @@ footer {
 .left {
   position: fixed;
   float: left;
-  width: 25%;
+  width: 300px;
   padding: 1rem;
 }
 
 .right {
   float: right;
-  width: 50%;
+  width: 55%;
   padding: 1rem;
 } 
