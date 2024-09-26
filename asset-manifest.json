@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.824accfc.css",
-    "main.js": "/static/js/main.f8a50df5.js",
+    "main.css": "/static/css/main.ee3907c6.css",
+    "main.js": "/static/js/main.cdde88b6.js",
     "static/js/453.5f35a7c2.chunk.js": "/static/js/453.5f35a7c2.chunk.js",
     "static/media/umich_seal.png": "/static/media/umich_seal.1c472fb6c2eec5d58dbd.png",
     "static/media/cmu_logo.png": "/static/media/cmu_logo.84ad950c6aa3f39fb52b.png",
@@ -9,12 +9,12 @@
     "static/media/github-logo.svg": "/static/media/github-logo.74d13353bde36d2dde5b52360f829273.svg",
     "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.f10c9de5cd3d33321b434c21192b499d.svg",
     "index.html": "/index.html",
-    "main.824accfc.css.map": "/static/css/main.824accfc.css.map",
-    "main.f8a50df5.js.map": "/static/js/main.f8a50df5.js.map",
+    "main.ee3907c6.css.map": "/static/css/main.ee3907c6.css.map",
+    "main.cdde88b6.js.map": "/static/js/main.cdde88b6.js.map",
     "453.5f35a7c2.chunk.js.map": "/static/js/453.5f35a7c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.824accfc.css",
-    "static/js/main.f8a50df5.js"
+    "static/css/main.ee3907c6.css",
+    "static/js/main.cdde88b6.js"
   ]
 }
